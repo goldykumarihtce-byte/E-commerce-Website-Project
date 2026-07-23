@@ -1,0 +1,223 @@
+/*=========================
+Hero
+=========================*/
+
+.hero{
+    overflow: hidden;
+}
+
+/* Left Hero */
+
+.hero-left{
+    height: 620px;
+}
+
+.hero-left img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.hero-content{
+    max-width:370px;
+}
+
+.hero-title{
+    font-size:72px;
+    line-height:1;
+}
+
+.hero-desc{
+    font-size:18px;
+    line-height:30px;
+}
+
+/*=========================
+Right Cards
+=========================*/
+
+.side-card{
+    height:300px;
+}
+
+.side-card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.side-title{
+    width:150px;
+    font-size:42px;
+    font-weight:300;
+    line-height:1.1;
+}
+
+/*=========================
+Bottom Cards
+=========================*/
+
+.bottom-card{
+    position:relative;
+    height:320px;
+}
+
+.bottom-card > img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.bottom-content{
+    position:absolute;
+    left:28px;
+    right:28px;
+    bottom:28px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.bottom-content h2{
+    width:250px;
+    margin:0;
+    color:#fff;
+    font-size:42px;
+    font-weight:300;
+    line-height:1.1;
+}
+
+.arrow{
+    width:24px;
+    height:24px;
+    object-fit:contain;
+}
+
+/*=========================
+Inspiration
+=========================*/
+
+.bottom-heading{
+    font-size:50px;
+    font-weight:300;
+    line-height:1.1;
+}
+
+.inspiration p{
+    color:#777;
+    line-height:28px;
+}
+
+/*=========================
+Swiper
+=========================*/
+
+.heroSwiper{
+    overflow:visible;
+}
+
+.heroSwiper .swiper-slide{
+    width:88%;
+}
+
+/*=========================
+Tablet
+=========================*/
+
+@media(max-width:991px){
+
+    .hero-left{
+        height:480px;
+    }
+
+    .hero-content{
+        max-width:260px;
+    }
+
+    .hero-title{
+        font-size:48px;
+    }
+
+    .hero-desc{
+        font-size:15px;
+        line-height:24px;
+    }
+
+    .side-card,
+    .bottom-card{
+        height:260px;
+    }
+
+    .side-title{
+        width:120px;
+        font-size:28px;
+    }
+
+    .bottom-content h2{
+        width:150px;
+        font-size:28px;
+    }
+
+}
+
+/*=========================
+Mobile
+=========================*/
+
+@media(max-width:767px){
+
+    .hero{
+        padding-top:12px;
+    }
+
+    .hero-left{
+        height:380px;
+    }
+
+    .hero-content{
+        max-width:320px;
+        padding-left:10px;
+    }
+
+    .hero-title{
+        font-size:36px;
+    }
+
+    .hero-desc{
+        font-size:14px;
+        line-height:22px;
+    }
+
+    .hero-content .btn{
+        font-size:13px;
+        padding:20px 20px;
+    }
+
+    .side-card,
+    .bottom-card{
+        height:240px;
+    }
+
+    .bottom-content{
+        left:18px;
+        right:18px;
+        bottom:18px;
+    }
+
+    .bottom-content h2{
+        width:130px;
+        font-size:24px;
+    }
+
+    .arrow{
+        width:20px;
+        height:20px;
+    }
+
+    .heroSwiper .swiper-slide{
+        width:86%;
+    }
+
+}
+

@@ -1,0 +1,177 @@
+// /*=========================
+// Trending
+// =========================*/
+
+// .trending {
+
+//   .nav-pills {
+
+//     .nav-link {
+//       color: #555;
+//       background: transparent;
+//       border: 1px solid #ddd;
+//       border-radius: 50px;
+//       padding: 12px 24px;
+//       font-weight: 500;
+//       transition: .3s;
+//     }
+
+//     .nav-link:hover {
+//       background: #111;
+//       color: #fff;
+//       border-color: #111;
+//     }
+
+//     .nav-link.active {
+//       background: #111;
+//       color: #fff;
+//       border-color: #111;
+//     }
+//   }
+
+//   .card {
+//     border: 0;
+//     background: transparent;
+//   }
+
+//   .position-relative {
+//     overflow: hidden;
+//     border-radius: 30px;
+//   }
+
+//   .card-img-top {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//     transition: .4s;
+//     display: block;
+//   }
+
+//   .card:hover .card-img-top {
+//     transform: scale(1.05);
+//   }
+
+//   .card-body {
+//     padding: 18px 0 0;
+//   }
+
+//   .card h5 {
+//     font-size: 18px;
+//     font-weight: 600;
+//     margin-bottom: 5px;
+//   }
+
+//   .card p {
+//     font-size: 15px;
+//     color: #777;
+//     margin-bottom: 0;
+//   }
+
+//   .btn.rounded-circle {
+//     width: 42px;
+//     height: 42px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//   }
+
+//   /* Small Card */
+
+//   .product-sm {
+//     height: 320px;
+//   }
+
+//   /* Big Card */
+
+//   .product-lg {
+//     height: 680px;
+//   }
+// }
+
+
+// /*=========================
+// Tablet
+// =========================*/
+
+// @media (max-width:991px) {
+
+//   .trending {
+
+//     .product-sm {
+//       height: 260px;
+//     }
+
+//     .product-lg {
+//       height: 520px;
+//     }
+
+//     .card h5 {
+//       font-size: 16px;
+//     }
+
+//   }
+
+// }
+
+
+// /*=========================
+// Mobile
+// =========================*/
+
+// @media (max-width:767px) {
+
+//   .trending {
+
+//     .row {
+//       --bs-gutter-x: 1rem;
+//       --bs-gutter-y: 1rem;
+//     }
+
+//     .product-sm {
+//       height: 210px;
+//     }
+
+//     .product-lg {
+//       height: 300px;
+//     }
+
+//     .card h5 {
+//       font-size: 15px;
+//     }
+
+//     .card p {
+//       font-size: 14px;
+//     }
+
+//     .btn.rounded-circle {
+//       width: 36px;
+//       height: 36px;
+//     }
+
+//     .nav-pills {
+//       gap: .5rem;
+//     }
+
+//     .nav-link {
+//       font-size: 14px;
+//       padding: 8px 16px;
+//     }
+
+//   }
+
+// }
+// @media (max-width: 767.98px) {
+
+//   .product-sm{
+//     height: 230px;
+//   }
+
+//   .product-lg{
+//     height: 460px;
+//   }
+
+//   .product-lg{
+//     width:100%;
+//   }
+
+// }
