@@ -1,21 +1,191 @@
-$primary: #ffffff;
-$light: #0000000D;
 
-$gray:#6c7275;
-$border: #E8ECEF;
-$black: #121212;
+/*==================================================
+Colors
+==================================================*/
 
-$fs-14:.875rem;
-$fs-16: 1rem;
-$fs-18: 1.125rem;
+$primary: #111111;
+$secondary: #666666;
+$success: #28a745;
+$danger: #dc3545;
+$warning: #ffc107;
+$info: #0dcaf0;
 
-$fw-400: 400;
-$fw-500: 500;
-$fw-600: 600;
-$fw-800: 800;
+$white: #ffffff;
+$black: #000000;
+
+$body-bg: #ffffff;
+$body-color: #555555;
+
+$gray-100: #f8f9fa;
+$gray-200: #eeeeee;
+$gray-300: #dddddd;
+$gray-400: #cccccc;
+$gray-500: #999999;
+$gray-600: #777777;
+$gray-700: #555555;
+$gray-800: #333333;
+$gray-900: #111111;
 
 
+/*==================================================
+Typography
+==================================================*/
 
 $font-family-base: "Inter",sans-serif;
 
+$font-size-base: 1rem;
 
+$h1-font-size: 4.5rem;      //72px
+$h2-font-size: 3rem;        //48px
+$h3-font-size: 2.625rem;    //42px
+$h4-font-size: 2rem;        //32px
+$h5-font-size: 1.5rem;      //24px
+$h6-font-size: 1.25rem;     //20px
+
+$headings-font-weight:300;
+$headings-line-height:1.1;
+$headings-color:$black;
+
+$display-font-sizes:(
+  1:5rem,
+  2:4rem,
+  3:3.5rem,
+  4:3rem,
+  5:2.5rem,
+  6:2rem
+);
+
+$display-font-weight:300;
+
+
+/*==================================================
+Spacing
+==================================================*/
+
+$spacer:1rem;
+
+$spacers:(
+  0:0,
+  1:.25rem,
+  2:.5rem,
+  3:1rem,
+  4:1.5rem,
+  5:3rem
+);
+
+$grid-gutter-width:1.5rem;
+
+
+/*==================================================
+Breakpoints
+==================================================*/
+
+$grid-breakpoints:(
+  xs:0,
+  sm:576px,
+  md:768px,
+  lg:992px,
+  xl:1200px,
+  xxl:1400px
+);
+
+$container-max-widths:(
+  sm:540px,
+  md:720px,
+  lg:960px,
+  xl:1140px,
+  xxl:1320px
+);
+
+
+/*==================================================
+Navbar
+==================================================*/
+
+$navbar-padding-y:1rem;
+
+$navbar-brand-font-size:1.5rem;
+
+$navbar-brand-padding-y:0;
+
+$navbar-brand-margin-end:3rem;
+
+$navbar-nav-link-padding-x:1rem;
+
+$nav-link-padding-y:.75rem;
+
+$navbar-light-color:$black;
+
+
+/*==================================================
+Buttons
+==================================================*/
+
+$btn-border-radius:50rem;
+
+$btn-padding-y:.85rem;
+$btn-padding-x:1.5rem;
+
+$btn-padding-y-sm:.65rem;
+$btn-padding-x-sm:1.25rem;
+
+$btn-padding-y-lg:1rem;
+$btn-padding-x-lg:2rem;
+
+$btn-font-size:.95rem;
+
+$btn-font-size-lg:1rem;
+
+
+/*==================================================
+Cards
+==================================================*/
+
+$card-border-width:0;
+$card-border-radius:1.5rem;
+$card-bg:transparent;
+$card-color:$gray-700;
+$card-title-color:$black;
+
+
+/*==================================================
+Links
+==================================================*/
+
+$link-decoration:none;
+
+
+/*==================================================
+Border Radius
+==================================================*/
+
+$border-radius:.75rem;
+$border-radius-sm:.5rem;
+$border-radius-lg:1.5rem;
+$border-radius-xl:2rem;
+$border-radius-xxl:2.5rem;
+$border-radius-pill:50rem;
+
+
+/*==================================================
+Transition
+==================================================*/
+
+$transition-base:all .35s ease;
+
+
+/*==================================================
+Accordion
+==================================================*/
+
+$accordion-icon-width:2rem;
+$accordion-border-width:0;
+
+
+/*==================================================
+Shadows
+==================================================*/
+
+$box-shadow-sm:0 2px 8px rgba(0,0,0,.08);
+$box-shadow:0 5px 20px rgba(0,0,0,.12);
+$box-shadow-lg:0 12px 40px rgba(0,0,0,.15);

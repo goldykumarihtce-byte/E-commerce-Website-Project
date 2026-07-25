@@ -2,11 +2,14 @@ import "../scss/styles.scss";
 
 import "bootstrap";
 
-
 import Swiper from "swiper";
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
+
+/*=========================
+Hero Slider
+=========================*/
 
 new Swiper(".heroSwiper", {
 
@@ -51,5 +54,36 @@ new Swiper(".heroSwiper", {
         }
 
     }
+
+});
+
+
+/*=========================
+Review Slider
+=========================*/
+
+new Swiper(".reviewSwiper", {
+
+    modules: [Autoplay],
+
+    slidesPerView: 1,
+
+    spaceBetween: 0,
+
+    loop: true,
+
+    speed: 900,
+
+    grabCursor: true,
+
+    autoplay: {
+
+        delay: 3500,
+
+        disableOnInteraction: false,
+
+        pauseOnMouseEnter: true,
+
+    },
 
 });

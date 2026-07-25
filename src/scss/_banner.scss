@@ -1,36 +1,230 @@
-.banner-img{
-    width:100%;
-    height:600px;
+/*=========================
+Review Slider
+=========================*/
+
+.reviewSwiper{
+    border-radius:32px;
+    overflow:hidden;
+}
+
+.review-banner{
+
+    height:620px;
+
+    display:flex;
+    align-items:center;
+
+    border-radius:32px;
+
+    background:
+    linear-gradient(
+        90deg,
+        rgba(0,0,0,.50) 0%,
+        rgba(0,0,0,.30) 35%,
+        rgba(0,0,0,.05) 100%
+    ),
+    url("/src/assets/images/big image.png");
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:right center;
+
+}
+
+/*=========================
+Content
+=========================*/
+
+.review-content{
+
+    max-width:430px;
+
+    margin-left:20px;
+
+}
+
+.review-content small:first-child{
+
+    display:block;
+
+    font-size:18px;
+
+    color:rgba(255,255,255,.75);
+
+    margin-bottom:12px;
+
+}
+
+.review-content h2{
+
+    font-size:58px;
+
+    font-weight:300;
+
+    line-height:1.05;
+
+    color:#fff;
+
+    margin-bottom:18px;
+
+}
+
+.review-content p{
+
+    max-width:340px;
+
+    font-size:16px;
+
+    line-height:1.8;
+
+    color:rgba(255,255,255,.82);
+
+    margin-bottom:28px;
+
+}
+
+.profile-img{
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
     object-fit:cover;
+
+}
+
+.review-content h5{
+
+    font-size:20px;
+
+    color:#fff;
+
+    margin-bottom:2px;
+
+}
+
+.review-content small:last-child{
+
+    font-size:14px;
+
+    color:rgba(255,255,255,.65);
+
+}
+
+/*=========================
+Hide Swiper UI
+=========================*/
+
+.reviewSwiper .swiper-button-next,
+.reviewSwiper .swiper-button-prev,
+.reviewSwiper .swiper-pagination{
+
+    display:none !important;
+
 }
 
 
-.overlay{
-    background:rgba(0,0,0,0.35);
-}
+/*=========================
+Mobile
+=========================*/
 
+@media (max-width:767px){
 
-.banner-content{
-    max-width:650px;
-}
+    .review-banner{
 
+        position: relative;
 
-@media(max-width:768px){
+        height: 700px;
 
-    .banner-img{
-        height:500px;
+        overflow: hidden;
+
+        background: none;
+
+        border-radius: 24px;
+
     }
 
+    /* Blur Background */
 
-    .banner-content{
+    .review-banner::before{
 
-        h1{
-            font-size:2.5rem;
-        }
+        content: "";
 
-        p{
-            font-size:1rem !important;
-        }
+        position: absolute;
+
+        inset: 0;
+
+        background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,.35),
+            rgba(0,0,0,.55)
+        ),
+        url("/src/assets/images/big image.png");
+
+        background-size: cover;
+
+        background-position: center;
+
+        filter: blur(8px);
+
+        transform: scale(1.08);
+
+        z-index: 1;
+
+    }
+
+    /* Content */
+
+    .review-banner .container{
+
+        position: relative;
+
+        z-index: 2;
+
+        height: 100%;
+
+    }
+
+    .review-content{
+
+        max-width: 300px;
+
+        padding: 35px 20px;
+
+        margin: 0;
+
+    }
+
+    .review-content h2{
+
+        font-size: 42px;
+
+        line-height: 1.1;
+
+    }
+
+    .review-content p{
+
+        font-size: 15px;
+
+    }
+
+    /* Profile image */
+
+    .profile-img{
+
+        width: 56px;
+
+        height: 56px;
+
+        border-radius: 50%;
+
+        object-fit: cover;
+
+        border: 3px solid #fff;
 
     }
 

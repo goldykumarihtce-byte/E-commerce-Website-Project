@@ -1,8 +1,11 @@
+/* Color Circle */
+
 .color{
     width:18px;
     height:18px;
     border-radius:50%;
     display:inline-block;
+    flex-shrink:0;
 }
 
 
@@ -20,6 +23,7 @@
 
 .white{
     background:#fff;
+    border:1px solid #ddd;
 }
 
 .sky{
@@ -41,14 +45,29 @@
 .green{
     background:#14532d;
 }
-.color{
-    width:18px;
-    height:18px;
-    border-radius:50%;
-    display:inline-block;
-}
+
+
+/* Color Buttons */
 
 .btn{
     font-size:1rem;
     font-weight:500;
+    transition:.3s ease;
+
+    &:hover{
+        transform:translateY(-3px);
+    }
+}
+@media(max-width:576px){
+
+    .btn{
+        font-size:.85rem;
+        padding: .6rem 1rem !important;
+    }
+
+    .color{
+        width:15px;
+        height:15px;
+    }
+
 }

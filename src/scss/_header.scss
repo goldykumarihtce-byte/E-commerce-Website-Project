@@ -146,44 +146,132 @@ Icons
 Tablet
 =========================*/
 
-@media (max-width:991px){
+@media (max-width: 991.98px) {
 
-    .navbar-brand{
-        font-size:28px;
-    }
+  .hero-left{
+    height:500px;
+  }
 
-    .navbar-collapse{
-        padding-top:20px;
-    }
+  .hero-content{
+    max-width:300px;
+  }
 
-    .search-box{
-        max-width:100% !important;
-        margin-bottom:20px;
-    }
+  .hero-title{
+    font-size:48px;
+    line-height:1.1;
+  }
 
-    .navbar-nav{
-        margin:20px 0;
-    }
+  .hero-desc{
+    font-size:16px;
+    line-height:24px;
+  }
+
+  .side-card,
+  .bottom-card{
+    height:240px;
+  }
+
+  .side-title{
+    font-size:32px;
+    width:120px;
+  }
+
+  .bottom-content h2{
+    font-size:30px;
+    width:170px;
+  }
 
 }
+
 
 /*=========================
 Mobile
 =========================*/
 
-@media (max-width:767px){
+@media (max-width: 767.98px) {
 
-    .navbar-brand{
-        font-size:24px;
-    }
+  .hero-left{
+    height:400px;
+  }
 
-    .search-box input{
-        height:44px;
-        font-size:14px;
-    }
+  .hero-left img{
+    object-position:center;
+  }
 
-    .navbar-nav .nav-link{
-        padding:12px 0;
-    }
+  .hero-content{
+    top:0;
+    left:0;
+    padding:1.5rem !important;
+    max-width:240px;
+  }
+
+  .hero-title{
+    font-size:34px;
+    line-height:1.1;
+  }
+
+  .hero-desc{
+    font-size:14px;
+    line-height:22px;
+    margin-bottom:1rem;
+  }
+
+  .hero-content .btn{
+    padding:.7rem 1.2rem;
+    font-size:13px;
+  }
+
+  .side-card,
+  .bottom-card{
+    height:220px;
+  }
+
+  .side-title{
+    font-size:24px;
+    width:100px;
+  }
+
+  .bottom-content{
+    left:18px;
+    right:18px;
+    bottom:18px;
+  }
+
+  .bottom-content h2{
+    font-size:22px;
+    width:120px;
+  }
+
+}
+
+
+/*=========================
+Small Mobile
+=========================*/
+
+@media (max-width:575.98px){
+
+  .hero-left{
+    height:340px;
+  }
+
+  .hero-content{
+    padding:1rem !important;
+    max-width:200px;
+  }
+
+  .hero-title{
+    font-size:28px;
+  }
+
+  .hero-desc{
+    font-size:13px;
+    line-height:20px;
+  }
+
+  .hero-content .btn{
+    font-size:12px;
+    padding:.6rem 1rem;
+  }
 
 }
