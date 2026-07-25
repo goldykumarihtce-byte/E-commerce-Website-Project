@@ -2,123 +2,123 @@
 Hero
 =========================*/
 
-.hero{
-    overflow: hidden;
+.hero {
+  overflow: hidden;
 }
 
 /* Left Hero */
 
-.hero-left{
-    height: 620px;
+.hero-left {
+  height: 620px;
 }
 
-.hero-left img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+.hero-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.hero-content{
-    max-width:370px;
+.hero-content {
+  max-width: 370px;
 }
 
-.hero-title{
-    font-size:72px;
-    line-height:1;
+.hero-title {
+  font-size: 72px;
+  line-height: 1;
 }
 
-.hero-desc{
-    font-size:18px;
-    line-height:30px;
+.hero-desc {
+  font-size: 18px;
+  line-height: 30px;
 }
 
 /*=========================
 Right Cards
 =========================*/
 
-.side-card{
-    height:300px;
+.side-card {
+  height: 300px;
 }
 
-.side-card img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+.side-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.side-title{
-    width:150px;
-    font-size:42px;
-    font-weight:300;
-    line-height:1.1;
+.side-title {
+  width: 150px;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1.1;
 }
 
 /*=========================
 Bottom Cards
 =========================*/
 
-.bottom-card{
-    position:relative;
-    height:320px;
+.bottom-card {
+  position: relative;
+  height: 320px;
 }
 
-.bottom-card > img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
+.bottom-card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.bottom-content{
-    position:absolute;
-    left:28px;
-    right:28px;
-    bottom:28px;
+.bottom-content {
+  position: absolute;
+  left: 28px;
+  right: 28px;
+  bottom: 28px;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-.bottom-content h2{
-    width:250px;
-    margin:0;
-    color:#fff;
-    font-size:42px;
-    font-weight:300;
-    line-height:1.1;
+.bottom-content h2 {
+  width: 250px;
+  margin: 0;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 1.1;
 }
 
-.arrow{
-    width:24px;
-    height:24px;
-    object-fit:contain;
+.arrow {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 /*=========================
 Inspiration
 =========================*/
 
-.bottom-heading{
-    font-size:50px;
-    font-weight:300;
-    line-height:1.1;
+.bottom-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1.1;
 }
 
-.inspiration p{
-    color:#777;
-    line-height:28px;
+.inspiration p {
+  color: #777;
+  line-height: 28px;
 }
 
 /*=========================
 Swiper
 =========================*/
 
-.heroSwiper{
-    overflow:visible;
+.heroSwiper {
+  overflow: visible;
 }
 
-.heroSwiper .swiper-slide{
-    width:88%;
+.heroSwiper .swiper-slide {
+  width: 88%;
 }
 
 /*=========================
@@ -126,147 +126,139 @@ Tablet
 =========================*/
 
 @media (max-width: 991.98px) {
-
-  .hero-left{
-    height:560px;
+  .hero-left {
+    height: 560px;
   }
 
-  .hero-content{
-    max-width:320px;
+  .hero-content {
+    max-width: 320px;
   }
 
-  .hero-title{
-    font-size:56px;
-    line-height:1.1;
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.1;
   }
 
-  .hero-desc{
-    font-size:16px;
-    line-height:26px;
+  .hero-desc {
+    font-size: 16px;
+    line-height: 26px;
   }
 
   .side-card,
-  .bottom-card{
-    height:260px;
+  .bottom-card {
+    height: 260px;
   }
 
-  .side-title{
-    font-size:32px;
-    width:130px;
+  .side-title {
+    font-size: 32px;
+    width: 130px;
   }
 
-  .bottom-content h2{
-    font-size:30px;
-    width:170px;
+  .bottom-content h2 {
+    font-size: 30px;
+    width: 170px;
   }
-
 }
-
 
 /*=========================
 Mobile
 =========================*/
 
 @media (max-width: 767.98px) {
-
-  .hero{
-    padding-top:12px;
+  .hero {
+    padding-top: 12px;
   }
 
-  .hero-left{
-    position:relative;
-    height:600px;
-    overflow:hidden;
+  .hero-left {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
   }
 
-  .hero-left img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    object-position:center bottom;
+  .hero-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
   }
 
-  .hero-content{
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    padding:2rem !important;
-    max-width:280px;
+  .hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem !important;
+    max-width: 280px;
   }
 
-  .hero-title{
-    font-size:42px;
-    line-height:1.1;
-    margin-bottom:1rem;
+  .hero-title {
+    font-size: 42px;
+    line-height: 1.1;
+    margin-bottom: 1rem;
   }
 
-  .hero-desc{
-    font-size:15px;
-    line-height:24px;
-    margin-bottom:1.5rem;
+  .hero-desc {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 1.5rem;
   }
 
-  .hero-content .btn{
-    font-size:14px;
-    padding:.8rem 1.5rem;
+  .hero-content .btn {
+    font-size: 14px;
+    padding: 0.8rem 1.5rem;
   }
 
   .side-card,
-  .bottom-card{
-    height:240px;
+  .bottom-card {
+    height: 240px;
   }
 
-  .side-title{
-    width:120px;
-    font-size:28px;
+  .side-title {
+    width: 120px;
+    font-size: 28px;
   }
 
-  .bottom-content{
-    left:20px;
-    right:20px;
-    bottom:20px;
+  .bottom-content {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
   }
 
-  .bottom-content h2{
-    width:140px;
-    font-size:24px;
+  .bottom-content h2 {
+    width: 140px;
+    font-size: 24px;
   }
 
-  .heroSwiper .swiper-slide{
-    width:90%;
+  .heroSwiper .swiper-slide {
+    width: 90%;
   }
-
 }
-
 
 /*=========================
 Small Mobile
 =========================*/
 
-@media (max-width: 575.98px){
-
-  .hero-left{
-    height:520px;
+@media (max-width: 575.98px) {
+  .hero-left {
+    height: 520px;
   }
 
-  .hero-content{
-    padding:1.5rem !important;
-    max-width:230px;
+  .hero-content {
+    padding: 1.5rem !important;
+    max-width: 230px;
   }
 
-  .hero-title{
-    font-size:34px;
+  .hero-title {
+    font-size: 34px;
   }
 
-  .hero-desc{
-    font-size:14px;
-    line-height:22px;
+  .hero-desc {
+    font-size: 14px;
+    line-height: 22px;
   }
 
-  .hero-content .btn{
-    padding:.7rem 1.2rem;
-    font-size:13px;
+  .hero-content .btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 13px;
   }
-
 }

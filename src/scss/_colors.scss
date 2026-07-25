@@ -1,73 +1,69 @@
 /* Color Circle */
 
-.color{
-    width:18px;
-    height:18px;
-    border-radius:50%;
-    display:inline-block;
-    flex-shrink:0;
+.color {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
 }
 
-
-.red{
-    background:#d94f4f;
+.red {
+  background: #d94f4f;
 }
 
-.lime{
-    background:#b5e61d;
+.lime {
+  background: #b5e61d;
 }
 
-.navy{
-    background:#0b1d39;
+.navy {
+  background: #0b1d39;
 }
 
-.white{
-    background:#fff;
-    border:1px solid #ddd;
+.white {
+  background: #fff;
+  border: 1px solid #ddd;
 }
 
-.sky{
-    background:#5cc8ff;
+.sky {
+  background: #5cc8ff;
 }
 
-.purple{
-    background:#8e44ad;
+.purple {
+  background: #8e44ad;
 }
 
-.pink{
-    background:#ff7eb9;
+.pink {
+  background: #ff7eb9;
 }
 
-.yellow{
-    background:#ffd43b;
+.yellow {
+  background: #ffd43b;
 }
 
-.green{
-    background:#14532d;
+.green {
+  background: #14532d;
 }
-
 
 /* Color Buttons */
 
-.btn{
-    font-size:1rem;
-    font-weight:500;
-    transition:.3s ease;
+.btn {
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.3s ease;
 
-    &:hover{
-        transform:translateY(-3px);
-    }
+  &:hover {
+    transform: translateY(-3px);
+  }
 }
-@media(max-width:576px){
+@media (max-width: 576px) {
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.6rem 1rem !important;
+  }
 
-    .btn{
-        font-size:.85rem;
-        padding: .6rem 1rem !important;
-    }
-
-    .color{
-        width:15px;
-        height:15px;
-    }
-
+  .color {
+    width: 15px;
+    height: 15px;
+  }
 }

@@ -1,26 +1,24 @@
-.footer input::placeholder{
-    color:#9a9a9a;
+.footer input::placeholder {
+  color: #9a9a9a;
 }
 
-.footer input:focus{
-    background:transparent;
-    color:#fff;
-    border-color:#fff;
-    box-shadow:none;
+.footer input:focus {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: none;
 }
 
-.footer a{
-    transition:.3s;
+.footer a {
+  transition: 0.3s;
 }
 
-.footer a:hover{
-    color:#fff !important;
+.footer a:hover {
+  color: #fff !important;
 }
 
-@media (max-width:576px){
-
-    .footer .btn{
-        width:110px;
-    }
-
+@media (max-width: 576px) {
+  .footer .btn {
+    width: 110px;
+  }
 }
