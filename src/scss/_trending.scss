@@ -184,6 +184,45 @@ Mobile
     .pt-3{
         padding-top:12px !important;
     }
+    .heart-btn{
+    
+    top:12px;
+    right:12px;
+
+    width:40px;
+    height:40px;
+
+    min-width:40px;
+    min-height:40px;
+    max-width:40px;
+    max-height:40px;
+
+    padding:0 !important;
+    margin:0 !important;
+
+    
+    border:none;
+    border-radius:50% !important;
+
+    background:#bdbdbd;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.15);
+
+    z-index:5;
+
+    flex:0 0 40px;
+}
+
+.heart-btn.red{
+    background:#e74c3c;
+}
+
+.heart-btn img{
+    width:18px;
+    height:18px;
+    display:block;
+    object-fit:contain;
+}
 
 }
 
